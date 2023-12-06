@@ -1,4 +1,4 @@
-dipais=$(ip link | awk -F': ' '/^[0-9]+: / {print $2}' | dmenu -i -fn 'JetBrainsMono ExtraBold-9' -nb '#781913' -sb '#E00000' -p "Interface :" -l 5 | cut -d' ' -f3)
+dipais=$(ip link | awk -F': ' '/^[0-9]+: / {print $2}' | dmenu -i -fn 'JetBrainsMono ExtraBold-14' -nb '#781913' -sb '#E00000' -p "Interface :" -l 5 | cut -d' ' -f3)
 
 if [ "$dipais" = "$dipais" ]; then
 echo $dipais > /home/mpuss/kodingan/skrip/dipais-wifi.txt
