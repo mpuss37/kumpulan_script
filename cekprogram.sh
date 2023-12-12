@@ -3,7 +3,7 @@
 # Menyimpan daftar proses yang ingin dicek dalam sebuah array
 processes=("mocp" "firefox" "kitty")
 
-# Membuat variabel untuk menyimpan pesan notifikasi
+# Membuat variabel untuk menyimpan pesan notifikasii
 notification=""
 
 # Membuat fungsi untuk mencari proses
